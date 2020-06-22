@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Raleway', sans-serif;
-    font-weight: 200;
+    font-weight: 600;
   }
 
   .navbar {
@@ -72,13 +72,15 @@ z-index: 1;
 }
 
 .mb-2, .my-2 {
+  margin-left: 0;
   margin-top: 2rem !important;
   margin-bottom: 1.2rem !important;
 }
 
-
 .top-img {
-  padding: 0;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
   margin-bottom: 0;
 }
 
@@ -102,7 +104,6 @@ z-index: 1;
  border-radius: 10px;
  text-transform: uppercase;
  word-spacing: 4px;
-
 }
 
 .h1, h1 {
@@ -130,11 +131,12 @@ z-index: 1;
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  margin-top: 1rem;
+  margin-top: 1.3rem;
   margin-bottom: .5rem;
 }
 .box h4, .box p {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
+  margin-top: 1rem;
 }
 
 .box h2 {
@@ -142,6 +144,7 @@ z-index: 1;
   font-weight: 600;
   padding-top: 0;
   padding-bottom: 0;
+  margin-top: 0.8rem;
 }
 
 .carousel img {
@@ -159,6 +162,7 @@ z-index: 1;
 
 .row {
   margin: 0;
+  margin-bottom: 3rem;
 }
 
 .card {
@@ -167,6 +171,96 @@ z-index: 1;
   margin-top: 5rem;
 }
 
-.cards .btn {
+.frm-btn {
+  width: 80%;
+  color: white;
+  background-color: #05668d;
+  margin-bottom: 2rem;
+  border-radius: 10px 10px 0 0;
+  margin-left: 2.2rem;
+  box-shadow: -webkit-box-shadow: 0px 7px 6px -2px rgba(64,61,66,1);
+-moz-box-shadow: 0px 7px 6px -2px rgba(64,61,66,1);
+box-shadow: 0px 7px 6px -2px rgba(64,61,66,1);
+}
 
+.frm-btn p {
+  text-align: center;
+  text-transform: uppercase;
+font-size: 0.8rem;
+padding: 0.6rem 0;
+}
+
+form {
+  font-weight: 600;
+  width: 80%;
+  margin-left: 2.25rem;
+  border-radius: 5px;
+  box-shadow: -webkit-box-shadow: 0px 0px 5px 3px #028090;
+-moz-box-shadow: 0px 0px 5px 3px #028090;
+box-shadow: 0px 0px 5px 3px #028090;
+margin-bottom: 5rem;
+margin-top: 0rem;
+}
+
+form label {
+
+}
+
+form input {
+  margin-left: 15%;
+  margin-top: 1.5rem;
+  width: 70%;
+  font-size: 1rem;
+  border: 0.5px solid #028090;
+  border-radius: 5px;
+  outline-color: #028090;
+  padding: .46rem;
+}
+
+input .email {
+  margin-left: 4rem;
+}
+
+   .forms button {
+  width: 60%;
+  padding: 0.3rem;
+  margin: 1.3rem 20%;
+  border-radius: 5px;
+  outline: none;
+  background-color: #028090;
+  box-shadow: -webkit-box-shadow: 0px 7px 5px -3px rgba(64,61,66,1);
+-moz-box-shadow: 0px 7px 5px -3px rgba(64,61,66,1);
+box-shadow: 0px 7px 5px -3px rgba(64,61,66,1);
+  color: white;
+}
+
+
+
+footer {
+  width: 100%;
+  background-color: #028090;
+}
+
+footer .icons  {
+  margin-top: 3rem;
+  color: white;
+  text-align: center;
+  padding: 6rem 0 1rem 0;
+}
+
+footer i {
+  width: 2rem;
+  padding: 0.3rem;
+border: 1px solid white;
+border-radius: 100%;
+margin: 0.3rem;
+}
+
+footer p, footer a {
+  text-align: center;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding-bottom: 1.4rem;
+  word-spacing: 0.01rem;
 }
