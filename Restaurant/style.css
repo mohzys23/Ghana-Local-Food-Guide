@@ -71,6 +71,10 @@ z-index: 1;
   outline: none !important;
 }
 
+.btn a {
+    color: white;
+}
+
 .mb-2, .my-2 {
   margin-left: 0;
   margin-top: 2rem !important;
@@ -221,7 +225,7 @@ input .email {
   margin-left: 4rem;
 }
 
-   .forms button {
+   #forms button {
   width: 60%;
   padding: 0.3rem;
   margin: 1.3rem 20%;
